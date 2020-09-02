@@ -1,0 +1,9 @@
+# dir
+node_modules
+dist
+
+.cache
+.vscode
+
+# files
+.env
