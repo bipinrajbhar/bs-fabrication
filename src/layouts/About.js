@@ -33,7 +33,7 @@ const About = ({ className }) => {
           B.S. Fabrication Works With Semi Unitized Glazing System, Curtain Wall
           Glazing, Spider Glass Canopy, Frame Less Glass, Aluminum And Gi Flush
           Doors, Aluminum Railing System, Aluminum Partition, Ms Shed, And All
-          Types Of Aluminum, Ms And Ss Fabrication.
+          Types Of Aluminum, MS And SS Fabrication.
         </Paragraph>
       </div>
       <svg
