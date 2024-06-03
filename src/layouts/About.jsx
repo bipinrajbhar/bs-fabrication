@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import background2 from '../../assets/background-images/background-4.webp';
+import background2 from '../assets/background-images/background-4.webp';
 import Title from '../elements/Title';
 import Paragraph from '../elements/Paragraph';
 import { neutrals } from '../utils/colors';
