@@ -27,13 +27,13 @@ const About = ({ className }) => {
       </svg>
       <div className="about-group">
         <Title fontSize="text-3xl" color={neutrals['blue-grey-050']}>
-          BS Fabrication was established in 2004 by Vinod Rajbhar.
+          B.S. Fabrication Was Established In 2007 By Vinod Rajbhar.
         </Title>
         <Paragraph fontSize="text-base" color={neutrals['blue-grey-050']}>
-          B. S. Fabrication Works on Aluminum Doors and Windows, Composite
-          Panels, Aluminum and GI Flush Doors, Spider Glass Canopy and Frame
-          Less Glass, Semi Unitized Structural and Curtain Wall Galzing, M.S.
-          and S.S. Glass Railings, etc.
+          B.S. Fabrication Works With Semi Unitized Glazing System, Curtain Wall
+          Glazing, Spider Glass Canopy, Frame Less Glass, Aluminum And Gi Flush
+          Doors, Aluminum Railing System, Aluminum Partition, Ms Shed, And All
+          Types Of Aluminum, MS And SS Fabrication.
         </Paragraph>
       </div>
       <svg

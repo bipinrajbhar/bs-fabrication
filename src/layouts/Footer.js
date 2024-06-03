@@ -51,8 +51,8 @@ const Footer = () => {
         <div className="company-summary">
           <img className="logo" src={logo} alt="BS Fabrication" />
           <Paragraph color={neutrals['blue-grey-050']}>
-            We are Industry Leader in Aluminum, Metal, Steel, And Stain Less
-            Steel Fabrication.
+            We Are Industry Leader In Building Elevation Aluminum, MS And SS
+            Fabrication
           </Paragraph>
         </div>
         <div id="contact" className="contact">
@@ -76,6 +76,14 @@ const Footer = () => {
               <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
             </svg>
             bs.fabrication@yahoo.com
+          </a>
+          <br />
+          <a href="mailto:bsfabrication.info@gmail.com" className="mail">
+            <svg className="icon" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+            </svg>
+            bsfabrication.info@gmail.com
           </a>
           <Paragraph color={neutrals['blue-grey-050']}>
             <svg className="icon" viewBox="0 0 20 20" fill="currentColor">
