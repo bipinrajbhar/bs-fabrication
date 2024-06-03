@@ -1,15 +1,7 @@
 import styled from 'styled-components';
-import { applyStyleModifiers } from 'styled-components-modifiers';
 
 import { cyan } from '../utils/colors';
 import { typeScale } from '../utils/type-scale';
-
-const MODIFIER_CONFIG = {
-  large: () => `
-    padding: 15px 30px;
-    font-size: ${typeScale['text-xl']}
-  `,
-};
 
 const Button = styled.button`
   display: flex;
@@ -27,8 +19,6 @@ const Button = styled.button`
   border-radius: 4px;
 
   cursor: pointer;
-
-  ${applyStyleModifiers(MODIFIER_CONFIG)};
 
   .icon {
     width: 24px;
