@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { neutrals } from '../utils/colors';
-import logo from '../../assets/logo.svg';
+import logo from '../assets/logo.svg';
 import Title from '../elements/Title';
 import Paragraph from '../elements/Paragraph';
 import media from '../utils/media';
