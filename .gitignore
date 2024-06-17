@@ -8,3 +8,4 @@ coverage
 
 # files
 .env
+*storybook.log
