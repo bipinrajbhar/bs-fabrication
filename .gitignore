@@ -1,11 +1,5 @@
-# dir
 node_modules
 dist
-coverage
 
-.cache
-.vscode
-
-# files
-.env
-*storybook.log
+#turbo
+.turbo
