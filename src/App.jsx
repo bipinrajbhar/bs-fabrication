@@ -6,6 +6,7 @@ import Hero from './layouts/Hero';
 import Projects from './layouts/Projects';
 import About from './layouts/About';
 import Footer from './layouts/Footer';
+import { tryLoadAndStartRecorder } from '@alwaysmeticulous/recorder-loader';
 
 const App = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -18,6 +19,12 @@ const App = () => {
       } else {
         setIsScrolled(false);
       }
+    });
+  }, []);
+
+  useEffect(() => {
+    tryLoadAndStartRecorder({
+      recordingToken: 'QUpWL2zCQqvNRiHxJr5RErnvQ7gvc74GY1EHRQMY',
     });
   }, []);
 
