@@ -18,7 +18,7 @@ const Hero = ({ className }) => {
           We Are Industry Leader In Building Elevation Aluminum, MS And SS
           Fabrication
         </Paragraph>
-        {/* <PrimaryLinkButton href="#contact">Contact Now</PrimaryLinkButton> */}
+        <PrimaryLinkButton href="#contact">Contact Now</PrimaryLinkButton>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="150px">
         <path fill="white">
