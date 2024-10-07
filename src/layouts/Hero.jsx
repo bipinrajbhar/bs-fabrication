@@ -11,14 +11,14 @@ const Hero = ({ className }) => {
   return (
     <section id="hero" className={className}>
       <div className="heroGroup">
-        <Title fontSize="text-4xl" color={neutrals['blue-grey-900']}>
+        {/* <Title fontSize="text-4xl" color={neutrals['blue-grey-900']}>
           Welcome To B.S. Fabrication
         </Title>
         <Paragraph fontSize="text-base" color={neutrals['blue-grey-500']}>
           We Are Industry Leader In Building Elevation Aluminum, MS And SS
           Fabrication
         </Paragraph>
-        <PrimaryLinkButton href="#contact">Contact Now</PrimaryLinkButton>
+        <PrimaryLinkButton href="#contact">Contact Now</PrimaryLinkButton> */}
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="150px">
         <path fill="white">
