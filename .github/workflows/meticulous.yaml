@@ -70,6 +70,6 @@ jobs:
       - name: Run Meticulous tests
         uses: alwaysmeticulous/report-diffs-action/cloud-compute@v1
         with:
-          api-token: ${{ secrets.METICULOUS_API_TOKEN }}
+          app-url: 'http://localhost:4173'
+          api-token: '3dt8cIoONeZsN8ilS4oxKBs7rRAHXzsnGnG0nD0p'
           # TODO: Update the port and protocol below to match your app's frontend
-          app-url: 'http://localhost:4173/'
