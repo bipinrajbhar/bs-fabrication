@@ -53,7 +53,7 @@ jobs:
 
       - name: Build project
         run: |
-          npm build
+          npm run build
 
       - name: Serve project
         # TODO: Update these commands to serve your app's frontend locally, and
